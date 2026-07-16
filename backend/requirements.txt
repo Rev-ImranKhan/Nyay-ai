@@ -1,7 +1,7 @@
 ﻿fastapi==0.115.6
 uvicorn==0.32.1
 python-multipart==0.0.20
-pydantic==2.10.3
+pydantic
 python-dotenv==1.0.1
 groq==0.13.0
 gtts==2.5.4
