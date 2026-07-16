@@ -7,4 +7,5 @@ groq==0.13.0
 gtts==2.5.4
 reportlab==4.2.5
 deep-translator==1.11.4
+setuptools
 openai-whisper==20240930
