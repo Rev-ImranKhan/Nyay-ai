@@ -1,5 +1,8 @@
 # ⚖️ NYAY AI — Multilingual AI Legal Assistant for India
 
+**🔗 Live Demo:** https://nyay-ai-two.vercel.app
+**📂 GitHub:**  https://github.com/Rev-ImranKhan/Nyay-ai
+
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![FastAPI](https://img.shields.io/badge/FastAPI-Backend-teal)
 ![React](https://img.shields.io/badge/React-Frontend-61DAFB)
