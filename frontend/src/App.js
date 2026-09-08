@@ -15,7 +15,7 @@ export default function App() {
 
   const getSimilarCases = async (q) => {
     try {
-      const res = await axios.post("http://127.0.0.1:8000/legal/similar-cases", {
+      const res = await axios.post("https://nyay-ai-backend-vjrt.onrender.com/legal/similar-cases", {
         description: q,
         language: "hi",
       });
@@ -29,7 +29,7 @@ export default function App() {
     if (!query) return;
     setLoading(true);
     try {
-      const res = await axios.post("http://127.0.0.1:8000/legal/advice", {
+      const res = await axios.post("https://nyay-ai-backend-vjrt.onrender.com/legal/advice", {
         description: query,
         language: "hi",
       });
@@ -45,7 +45,7 @@ export default function App() {
     if (!query) return;
     setLoading(true);
     try {
-      const res = await axios.post("http://127.0.0.1:8000/legal/fir", {
+      const res = await axios.post("https://nyay-ai-backend-vjrt.onrender.com/legal/fir", {
         description: query,
         language: "hi",
       });
@@ -69,7 +69,7 @@ export default function App() {
     setSpeaking(true);
     try {
       const response = await axios.post(
-        "http://127.0.0.1:8000/legal/speak",
+        "https://nyay-ai-backend-vjrt.onrender.com/legal/speak",
         { description: query, language: "hi" },
         { responseType: "blob" }
       );
@@ -92,7 +92,7 @@ export default function App() {
     if (!query) return;
     try {
       const response = await axios.post(
-        "http://127.0.0.1:8000/legal/download-fir",
+        "https://nyay-ai-backend-vjrt.onrender.com/legal/download-fir",
         { description: query, language: "hi" },
         { responseType: "blob" }
       );
